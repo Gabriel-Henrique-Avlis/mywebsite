@@ -1,0 +1,80 @@
+.section-contact {
+    background-color: white;
+    color:  #2C3E50;
+}
+
+
+.section-contact > .detalhe_row > .detalhe1 {
+    background-color: #2C3E50;
+   }
+   
+.section-contact > .detalhe_row > .detalhe2 {
+    background-color: #2C3E50;
+    }
+
+
+.section-contact > .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 60px 20px;
+}
+
+.section-contact > h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-contact label {
+    font: 20px "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgba(95, 92, 92, 0.863);
+}
+
+.section-contact > .container .content {
+    margin: 20px 0;
+}
+
+.section-contact > .container .content div {
+    padding: 20px;
+}
+
+.section-contact > .container button {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #D40A44;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.section-contact > .container button:hover {
+    background-color: #fff;
+    color: #D40A44
+}
+
+.section-contact > .detalhe_row {
+    margin-left: 46%;
+}
+
+@media (max-width: 599px) {
+    .section-contact > .container >.content input[type=text] {
+            width: 400px;
+    }
+
+    .section-contact > .detalhe_row {
+        margin-left: 200px;
+    }
+
+
+    .section-contact > .container .content {
+        flex-direction: column;
+    }
+}

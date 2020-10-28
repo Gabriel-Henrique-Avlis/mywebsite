@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+@import 'nav.css';
+@import 'hero.css';
+@import 'about.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'portfolio.css';
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-star {
+  position: relative;
+  top: -10px;
+}
+
+body,
+html {
+  font: 16px "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  max-width: 800px;
+  width: 400%;
+}
+
+
+

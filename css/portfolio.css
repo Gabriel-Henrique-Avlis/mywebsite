@@ -1,0 +1,94 @@
+.section-portfolio {
+    background-color: white;
+    color: #2C3E50;
+    text-align: center;
+}
+
+
+.section-portfolio > .container > .detalhe_row > .detalhe1 {
+    background-color: #2C3E50;
+   }
+   
+.section-portfolio > .container > .detalhe_row > .detalhe2 {
+    background-color: #2C3E50;
+    }
+
+
+.section-portfolio > .container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-portfolio > .container > h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-portfolio > .container .content {
+    display: flex;
+    margin: 20px 0;
+}
+
+.section-portfolio > .container .content div {
+    padding: 20px;
+}
+
+.section-portfolio > .container button {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #D40A44;
+    padding: 15px 30px;
+    border-radius: 100px;
+}
+
+.section-portfolio > .container button:hover {
+    background-color: #fff;
+    color: #D40A44
+}
+
+.asset {
+    margin: 20px;
+}
+
+.asset > img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.detalhe1 {
+    float: left;
+    width: 50px;
+    height: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    background-color: blue;
+}
+
+.detalhe2 {
+    float: right;
+    width: 50px;
+    height: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -15px;
+    background-color: blue;
+}
+
+.detalhe_row {
+    width: 100px;
+}
+
+
+@media (max-width: 599px) {
+
+    .section-portfolio > .container .content {
+        flex-direction: column;
+    }
+}
